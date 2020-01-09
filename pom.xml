@@ -30,7 +30,7 @@
         </dependency>
     </dependencies>
     
-    <!-- <build>
+     <build>
         <finalName>SampleServlet</finalName>
         <plugins>
             <plugin>
@@ -39,7 +39,7 @@
                 <version>2.2</version>
             </plugin>
         </plugins>
-    </build> -->
+    </build>
 <!-- WildFly Configs -->
     <profiles>
         <profile>
