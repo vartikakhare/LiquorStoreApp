@@ -30,7 +30,7 @@
         </dependency>
     </dependencies>
     
-    <build>
+    <!-- <build>
         <finalName>SampleServlet</finalName>
         <plugins>
             <plugin>
@@ -39,9 +39,9 @@
                 <version>2.2</version>
             </plugin>
         </plugins>
-    </build>
+    </build> -->
 
-    <!--<profiles>
+    <profiles>
         <profile>
             <id>openshift</id>
             <build>
@@ -60,5 +60,5 @@
                 </plugins>
             </build>
         </profile>
-    </profiles>-->
+    </profiles>
 </project>
