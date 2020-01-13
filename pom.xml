@@ -16,6 +16,12 @@
     </properties>
 
     <dependencies>
+    	<dependency>
+	      <groupId>junit</groupId>
+	      <artifactId>junit</artifactId>
+	      <version>4.11</version>
+	      <scope>test</scope>
+	    </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
@@ -31,7 +37,7 @@
     </dependencies>
     
      <build>
-        <finalName>SampleServlet</finalName>
+        <finalName>ROOT</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
@@ -41,7 +47,7 @@
         </plugins>
     </build>
 <!-- WildFly Configs -->
-    <profiles>
+   <!--  <profiles>
         <profile>
             <id>openshift</id>
             <build>
@@ -60,5 +66,5 @@
                 </plugins>
             </build>
         </profile>
-    </profiles>
+    </profiles> -->
 </project>
