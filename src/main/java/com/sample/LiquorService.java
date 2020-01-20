@@ -11,16 +11,17 @@ public class LiquorService {
 
         List<String> brands = new ArrayList<String>();
 
-        if(type.equals(LiquorType.WINE)){
-            brands.add("Adrianna Vineyard");
-            brands.add(("J. P. Chenet"));
+        if(type.equals(LiquorType.BMW)){
+            brands.add("BMW X1");
+            brands.add(("BMW X 4"));
 
-        }else if(type.equals(LiquorType.WHISKY)){
-            brands.add("Glenfiddich");
-            brands.add("Johnnie Walker");
+        }else if(type.equals(LiquorType.AUDI)){
+            brands.add("Q7");
+            brands.add("Q8");
 
-        }else if(type.equals(LiquorType.BEER)){
-            brands.add("Corona");
+        }else if(type.equals(LiquorType.MARUTI)){
+            brands.add("CIAZ");
+            brands.add("S-Cross");
 
         }else {
             brands.add("No Brand Available");
