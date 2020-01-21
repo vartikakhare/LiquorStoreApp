@@ -1,6 +1,6 @@
 package com.sample.model;
 
-public enum LiquorType {
+public enum CarType {
     BMW,AUDI,MARUTI
 
 }

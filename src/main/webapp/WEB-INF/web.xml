@@ -5,13 +5,13 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
     <servlet>
-  	<servlet-name>SelectLiquorServlet</servlet-name>
-  	<display-name>SelectLiquorServlet</display-name>
+  	<servlet-name>SelectCarServlet</servlet-name>
+  	<display-name>SelectCarServlet</display-name>
   	<description></description>
-  	<servlet-class>com.sample.SelectLiquorServlet</servlet-class>
+  	<servlet-class>com.sample.SelectCarServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>SelectLiquorServlet</servlet-name>
-  	<url-pattern>/SelectLiquorServlet</url-pattern>
+  	<servlet-name>SelectCarServlet</servlet-name>
+  	<url-pattern>/SelectCarServlet</url-pattern>
   </servlet-mapping>
 </web-app>

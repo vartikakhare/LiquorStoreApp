@@ -9,7 +9,7 @@
     <h1>
         Select the type of Car
     </h1>
-    <form method="post" action="SelectLiquor">
+    <form method="post" action="SelectCar">
        <br>
         <select name="Type" size="1">
             <option>BMW</option>

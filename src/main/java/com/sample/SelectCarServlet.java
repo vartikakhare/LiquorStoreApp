@@ -1,6 +1,6 @@
 package com.sample;
 
-import com.sample.model.LiquorType;
+import com.sample.model.CarType;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -14,10 +14,10 @@ import java.util.List;
 
 
 @WebServlet(
-        name = "selectliquorservlet",
-        urlPatterns = "/SelectLiquor"
+        name = "selectcarservlet",
+        urlPatterns = "/SelectCar"
 )
-public class SelectLiquorServlet extends HttpServlet {
+public class SelectCarServlet extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
 
@@ -26,8 +26,8 @@ public class SelectLiquorServlet extends HttpServlet {
 
         String liquorType = req.getParameter("Type");
 
-        LiquorService liquorService = new LiquorService();
-        LiquorType l = LiquorType.valueOf(liquorType);
+        CarService liquorService = new CarService();
+        CarType l = CarType.valueOf(liquorType);
 
         List<String> liquorBrands = liquorService.getAvailableBrands(l);
 
